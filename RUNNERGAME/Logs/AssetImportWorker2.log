@@ -1,0 +1,965 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 16310 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/tnwl1/sub1/RunGame/RUNNERGAME
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52857
+Successfully changed project path to: C:/Users/tnwl1/sub1/RunGame/RUNNERGAME
+C:/Users/tnwl1/sub1/RunGame/RUNNERGAME
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21596] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 2073878192 [EditorId] 2073878192 [Version] 1048832 [Id] WindowsEditor(7,SJPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21596] Host "[IP] 192.168.0.19 [Port] 0 [Flags] 2 [Guid] 2073878192 [EditorId] 2073878192 [Version] 1048832 [Id] WindowsEditor(7,SJPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 70.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/tnwl1/sub1/RunGame/RUNNERGAME/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.2647
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004320 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.424 seconds
+Domain Reload Profiling:
+	ReloadAssembly (425ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (296ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (67ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (16ms)
+			SetupLoadedEditorAssemblies (178ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003926 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Domain Reload Profiling:
+	ReloadAssembly (653ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (165ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (401.1 KB). Loaded Objects now: 3521.
+Memory consumption went from 109.5 MB to 109.1 MB.
+Total: 2.590900 ms (FindLiveObjects: 0.154200 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.143200 ms  DeleteObjects: 0.215800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10196.437486 seconds.
+  path: Assets/AurynSky/WinterArena/Models/BannerHolder.fbx
+  artifactKey: Guid(16645dea5f57ecb4d816b8dcf5050545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/BannerHolder.fbx using Guid(16645dea5f57ecb4d816b8dcf5050545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3914a8414474f5023be3cdcd02b3195') in 0.145985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AurynSky/WinterArena/Models/Tower_W.fbx
+  artifactKey: Guid(c73dae5f4a5c46a44b41456bf30328c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/Tower_W.fbx using Guid(c73dae5f4a5c46a44b41456bf30328c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a99022ccdb612e3a80fd8cdc288e72') in 0.015648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterBrazier.fbx
+  artifactKey: Guid(4156a4f102566af40af7101768132060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterBrazier.fbx using Guid(4156a4f102566af40af7101768132060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f542f5ced326ae3f7f4c361e4ea7a65') in 0.014373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AurynSky/WinterArena/Models/SnowCorner_v2.fbx
+  artifactKey: Guid(47bfee777d4120a409c6a7536e167684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/SnowCorner_v2.fbx using Guid(47bfee777d4120a409c6a7536e167684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8626d3e3e305f5e76364d97fcac83e6d') in 0.016615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AurynSky/WinterArena/Models/SnowEnd.fbx
+  artifactKey: Guid(b0afcbbf94f580d49bb606b0d50b7f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/SnowEnd.fbx using Guid(b0afcbbf94f580d49bb606b0d50b7f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883838beda4603f6ea8caf8f15386d86') in 0.020991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AurynSky/WinterArena/Models/Flag.fbx
+  artifactKey: Guid(5e7fd0079fd82004f9860bf4619d8cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/Flag.fbx using Guid(5e7fd0079fd82004f9860bf4619d8cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ead27cf7bcbb2cbc38c7e87b3ec26e9a') in 0.026620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.432445 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCastleDoor_R.fbx
+  artifactKey: Guid(3995bf63cdc77a049b62ba2709f69583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCastleDoor_R.fbx using Guid(3995bf63cdc77a049b62ba2709f69583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9f21b8fcb4e8d125fd79d5e6b36b7c') in 0.014064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCastleWindow.fbx
+  artifactKey: Guid(e72cd5d9ca8a31c439d64409a820e614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCastleWindow.fbx using Guid(e72cd5d9ca8a31c439d64409a820e614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f0675a659594f5f6c30638cad57a08') in 0.014467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCatapultSki.fbx
+  artifactKey: Guid(9040094e8183088489935f9f6d6a6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultSki.fbx using Guid(9040094e8183088489935f9f6d6a6bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef588474cca73d2cf4d4abca76ab1ded') in 0.014566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCatapultWheel_v2.fbx
+  artifactKey: Guid(128b7ab7790e5654d89fb88d7769d284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCatapultWheel_v2.fbx using Guid(128b7ab7790e5654d89fb88d7769d284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70da1cfcf6b4154875fc2969edaeda50') in 0.016647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterChestBottom_v2.fbx
+  artifactKey: Guid(8223cded31394424ab47abd1fd6a2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterChestBottom_v2.fbx using Guid(8223cded31394424ab47abd1fd6a2873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27435de2b1939c1b78dd0f7c08bc3248') in 0.015031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterChestTop_v2.fbx
+  artifactKey: Guid(8eae438ad6898e6468acefadc136ec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterChestTop_v2.fbx using Guid(8eae438ad6898e6468acefadc136ec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b747d773fef124586ccbbd927afdcae1') in 0.016520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.202579 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterChestTop_v3.fbx
+  artifactKey: Guid(979d95966ee53d347ad6cd450b4dd0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterChestTop_v3.fbx using Guid(979d95966ee53d347ad6cd450b4dd0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b5e8f5ac48799fec7e4b7b810adda9') in 0.014916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009329 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCubeLarge_v2.fbx
+  artifactKey: Guid(66e145569ad6d434cbd1b8b6628775bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCubeLarge_v2.fbx using Guid(66e145569ad6d434cbd1b8b6628775bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd436d77c8d91efebf9c33ecb46d2d5f9') in 0.015547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterCubeMedium_v2.fbx
+  artifactKey: Guid(0857f82ff72156b418be3272ca9b8ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterCubeMedium_v2.fbx using Guid(0857f82ff72156b418be3272ca9b8ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1001cd5cb8e0e94ea5a6637f992bc328') in 0.016755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterGroundDirt.fbx
+  artifactKey: Guid(fa84981206a101a43b4b54b51dfccbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterGroundDirt.fbx using Guid(fa84981206a101a43b4b54b51dfccbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '378edf019d61aef50cfe04cce3c7466b') in 0.014259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterGrass02.fbx
+  artifactKey: Guid(3735fac778456e344a78d55338a4ef47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterGrass02.fbx using Guid(3735fac778456e344a78d55338a4ef47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe60d717b452a9a22dbfff57cd95174b') in 0.015901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.185699 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterGroundIce.fbx
+  artifactKey: Guid(6e287a6e1216437419e06afb9386b9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterGroundIce.fbx using Guid(6e287a6e1216437419e06afb9386b9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb025c5e7320cdf1227bbb64e6f2a96b') in 0.016071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015883 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterIceTreePineShort.fbx
+  artifactKey: Guid(0f5f08b83d08ca74d9aa1c7d50e1e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterIceTreePineShort.fbx using Guid(0f5f08b83d08ca74d9aa1c7d50e1e383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571c6994c40b1398a7c545a52c4798ff') in 0.020250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTower.fbx
+  artifactKey: Guid(81ab000137f3aac4fbe46a4e750d464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTower.fbx using Guid(81ab000137f3aac4fbe46a4e750d464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df90667ccab30678b8d5c396927e7d74') in 0.016914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTower_v2.fbx
+  artifactKey: Guid(dc85ee47e579c864681c1621aa9e7937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTower_v2.fbx using Guid(dc85ee47e579c864681c1621aa9e7937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde01d85464cd6bd7ac51ce70ddd1bf3') in 0.018136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterLadderExtra.fbx
+  artifactKey: Guid(994ba9abcf0319247a16e399e834b491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterLadderExtra.fbx using Guid(994ba9abcf0319247a16e399e834b491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03c5cf16749fd59ebf468bd67c6cdf2') in 0.013548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.225976 seconds.
+  path: Assets/AurynSky/WinterArena/Scenes
+  artifactKey: Guid(dd7e7047d55028d4797388d2a61731b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Scenes using Guid(dd7e7047d55028d4797388d2a61731b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b85e963cc90a2696b25050a0daea87') in 0.008825 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.301613 seconds.
+  path: Assets/AurynSky/WinterArena/Scripts
+  artifactKey: Guid(2054bba749a942b4fb5a3016ace249c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Scripts using Guid(2054bba749a942b4fb5a3016ace249c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619317ecffbda18b193e5cb52eb025ea') in 0.007100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.617636 seconds.
+  path: Assets/AurynSky/WinterArena/Textures
+  artifactKey: Guid(7f73b9ba4b9c74f458f8e6ce45d3b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Textures using Guid(7f73b9ba4b9c74f458f8e6ce45d3b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefa1b61898e7e20095a56be92d434c3') in 0.007133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.084909 seconds.
+  path: Assets/AurynSky/WinterArena/Textures/ColorPaletteBLUE.png
+  artifactKey: Guid(5c793c7bf3c86dc46a9989d74c2cd77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Textures/ColorPaletteBLUE.png using Guid(5c793c7bf3c86dc46a9989d74c2cd77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6136689086a74891d7dd8b822afa9a63') in 0.036507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.778836 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterCrate_MD.prefab
+  artifactKey: Guid(d45e0d96dfe73c145b5cbc18a2e41084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCrate_MD.prefab using Guid(d45e0d96dfe73c145b5cbc18a2e41084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc608592d189a83c958d5a59962c3348') in 0.022532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028996 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterCubeMedium.prefab
+  artifactKey: Guid(7ea2dd0fb00473449b677259eba93ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCubeMedium.prefab using Guid(7ea2dd0fb00473449b677259eba93ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df1619357e305e9fecfd4c1026479ea') in 0.020286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterGrass01.prefab
+  artifactKey: Guid(f3a2edfa0cd95b043bb4f44f93320140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterGrass01.prefab using Guid(f3a2edfa0cd95b043bb4f44f93320140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b24b4882fdf9bf6d28c89c4669b055a') in 0.012411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterCubeSmall_v2.prefab
+  artifactKey: Guid(ea78471431e56e647980629b115f33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterCubeSmall_v2.prefab using Guid(ea78471431e56e647980629b115f33d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3523c0c73db1271f5ad7388d6f36aa10') in 0.013759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.195909 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/WinterLadder.prefab
+  artifactKey: Guid(d0470092e794c614385c5b06ccbddb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/WinterLadder.prefab using Guid(d0470092e794c614385c5b06ccbddb09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256786b8b49d239425f852a01773be05') in 0.012858 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003885 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.696 seconds
+Domain Reload Profiling:
+	ReloadAssembly (697ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (518ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (220ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (368.0 KB). Loaded Objects now: 3571.
+Memory consumption went from 126.5 MB to 126.1 MB.
+Total: 2.405400 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.068800 ms MarkObjects: 1.992500 ms  DeleteObjects: 0.148200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004340 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (688ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (514ms)
+			LoadAssemblies (66ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (399.0 KB). Loaded Objects now: 3574.
+Memory consumption went from 126.5 MB to 126.1 MB.
+Total: 2.302600 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.090700 ms MarkObjects: 1.863600 ms  DeleteObjects: 0.167400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004216 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.690 seconds
+Domain Reload Profiling:
+	ReloadAssembly (691ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (509ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (166ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (226ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (398.9 KB). Loaded Objects now: 3577.
+Memory consumption went from 126.5 MB to 126.1 MB.
+Total: 2.325800 ms (FindLiveObjects: 0.179400 ms CreateObjectMapping: 0.069000 ms MarkObjects: 1.911600 ms  DeleteObjects: 0.165400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004369 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.713 seconds
+Domain Reload Profiling:
+	ReloadAssembly (713ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (233ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (367.9 KB). Loaded Objects now: 3580.
+Memory consumption went from 126.5 MB to 126.1 MB.
+Total: 2.417500 ms (FindLiveObjects: 0.168000 ms CreateObjectMapping: 0.058500 ms MarkObjects: 2.038400 ms  DeleteObjects: 0.152000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003781 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.704 seconds
+Domain Reload Profiling:
+	ReloadAssembly (705ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (529ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (368.0 KB). Loaded Objects now: 3583.
+Memory consumption went from 126.6 MB to 126.2 MB.
+Total: 2.396700 ms (FindLiveObjects: 0.172200 ms CreateObjectMapping: 0.059000 ms MarkObjects: 2.007200 ms  DeleteObjects: 0.157500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003771 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (729ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (537ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (375.5 KB). Loaded Objects now: 3586.
+Memory consumption went from 126.6 MB to 126.3 MB.
+Total: 2.435300 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.105700 ms MarkObjects: 1.985300 ms  DeleteObjects: 0.161700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003656 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.698 seconds
+Domain Reload Profiling:
+	ReloadAssembly (698ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (525ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (367.8 KB). Loaded Objects now: 3589.
+Memory consumption went from 126.6 MB to 126.3 MB.
+Total: 2.246000 ms (FindLiveObjects: 0.184800 ms CreateObjectMapping: 0.067500 ms MarkObjects: 1.828500 ms  DeleteObjects: 0.164600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004154 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\tnwl1\sub1\RunGame\RUNNERGAME\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.692 seconds
+Domain Reload Profiling:
+	ReloadAssembly (692ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (228ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (375.5 KB). Loaded Objects now: 3592.
+Memory consumption went from 126.6 MB to 126.3 MB.
+Total: 2.747800 ms (FindLiveObjects: 0.296700 ms CreateObjectMapping: 0.070100 ms MarkObjects: 2.152700 ms  DeleteObjects: 0.227700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1228.828264 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Ground
+  artifactKey: Guid(1b039b2b7d9c1bd4fb812cba87ed6340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Ground using Guid(1b039b2b7d9c1bd4fb812cba87ed6340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9508e0ce7725f566760e47cae9e94616') in 0.011284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042593 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Ground/WinterGroundDirt.prefab
+  artifactKey: Guid(017654b38a60d604b9bb14fd5ee8bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Ground/WinterGroundDirt.prefab using Guid(017654b38a60d604b9bb14fd5ee8bae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f77426b05d4939d0ad2f384ed39351') in 0.067107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Ground/WinterGroundRock.prefab
+  artifactKey: Guid(410fa1947d1cc1246a20cef9517cf7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Ground/WinterGroundRock.prefab using Guid(410fa1947d1cc1246a20cef9517cf7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bd10d77e0781b4da761cca75322cb3') in 0.011810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Ground/WinterGroundRockSnow_v2.prefab
+  artifactKey: Guid(5b2ce418e585ea244995c1c166f90419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Ground/WinterGroundRockSnow_v2.prefab using Guid(5b2ce418e585ea244995c1c166f90419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49368c11e676af0228c3cc7e9690ceae') in 0.011278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/Ground/WinterGroundRockSnow.prefab
+  artifactKey: Guid(bad351c878112904cbbc404a34243224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/Ground/WinterGroundRockSnow.prefab using Guid(bad351c878112904cbbc404a34243224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b640b880fce532385cacbccce9989f') in 0.010286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.270544 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/RED Prefabs
+  artifactKey: Guid(e89a866e22e98584f80f70934e7f3ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/RED Prefabs using Guid(e89a866e22e98584f80f70934e7f3ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e06587cf8117c06b53be6c6d1f1a78') in 0.006978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.172865 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/Castle_W_Red.prefab
+  artifactKey: Guid(09e5e64bb35b5a941b7a4c74335f15d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/Castle_W_Red.prefab using Guid(09e5e64bb35b5a941b7a4c74335f15d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e1ec298952e561f94069d35e92a867') in 0.020963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterCastle_v2_Red.prefab
+  artifactKey: Guid(b6bf0d28e0203fb4a8e2067fec1d2144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterCastle_v2_Red.prefab using Guid(b6bf0d28e0203fb4a8e2067fec1d2144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65f498e72accf8f5512311022e0640c') in 0.022133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterBanner_v2_Red.prefab
+  artifactKey: Guid(95524d5fa4048654a88644003fd96fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterBanner_v2_Red.prefab using Guid(95524d5fa4048654a88644003fd96fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '003596ebc2f5d11fe96fc80bdb09f876') in 0.014099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterCatapult_Ski_Red.prefab
+  artifactKey: Guid(c2bd88f150e138741b6ce0833997081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterCatapult_Ski_Red.prefab using Guid(c2bd88f150e138741b6ce0833997081c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53de808096bf7e49017a379aabac1ca') in 0.015614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterBrazier_v2_Red.prefab
+  artifactKey: Guid(99ce5c0963ceb234e9cac28b57dd8d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterBrazier_v2_Red.prefab using Guid(99ce5c0963ceb234e9cac28b57dd8d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41587f2c8d78386b900e1c5df9e2fde') in 0.015967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterCastleDoor_R_Red.prefab
+  artifactKey: Guid(14aa6cd0a1c060e41bf8dd00a835a328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterCastleDoor_R_Red.prefab using Guid(14aa6cd0a1c060e41bf8dd00a835a328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a81e61793128d17e09a8d176c7835b8') in 0.011173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterBanner_Red.prefab
+  artifactKey: Guid(37ec2221f238c414eaaf0cb384547c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/RED Prefabs/WinterBanner_Red.prefab using Guid(37ec2221f238c414eaaf0cb384547c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54406d0bfffc7471ad2debea6204aa71') in 0.013206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.649406 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/SnowPiles
+  artifactKey: Guid(86cb62b206c29254fb73ba275506e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/SnowPiles using Guid(86cb62b206c29254fb73ba275506e004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed6baa07d8d36e432f4058c8bcfc319') in 0.007392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.232168 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowCorner.prefab
+  artifactKey: Guid(407f2672db34d0b46aad7351ac16d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowCorner.prefab using Guid(407f2672db34d0b46aad7351ac16d705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0ff66f32f329ed8a3b02231e482ed2') in 0.014627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowEnd.prefab
+  artifactKey: Guid(e0f642d643245a44db47576f710d7dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowEnd.prefab using Guid(e0f642d643245a44db47576f710d7dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da0061e97b5b59383c649575b53da99') in 0.027729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowLine.prefab
+  artifactKey: Guid(82436820a1fece5449e4c4cff4d30860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowLine.prefab using Guid(82436820a1fece5449e4c4cff4d30860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ec2ee2dffff68136b20379dc29c21b') in 0.044373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowPile_v2.prefab
+  artifactKey: Guid(e4493422f2ee2274c886b783b4364538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Prefabs/SnowPiles/SnowPile_v2.prefab using Guid(e4493422f2ee2274c886b783b4364538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01b8b331b931102d9973b8d44db538f') in 0.076331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.302158 seconds.
+  path: Assets/AurynSky/WinterArena/Materials
+  artifactKey: Guid(f35f14aaa3d4b034a8d81452802f37de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Materials using Guid(f35f14aaa3d4b034a8d81452802f37de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657afa7f1f9f0f370adc8f55ce9d1207') in 0.008120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059894 seconds.
+  path: Assets/AurynSky/WinterArena/Materials/ColorPaletteBLUE.mat
+  artifactKey: Guid(d48fde4f6910c39499e7227696d40269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Materials/ColorPaletteBLUE.mat using Guid(d48fde4f6910c39499e7227696d40269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e12d8ca9a102d66c0f86e9e08fdd66') in 0.019648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/AurynSky/WinterArena/Materials/ShowCaseMaterial.mat
+  artifactKey: Guid(e4339b6f90f698949a760fe395d3c983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Materials/ShowCaseMaterial.mat using Guid(e4339b6f90f698949a760fe395d3c983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edce3209a98c85caf36735021aacf035') in 0.010639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.498511 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG.fbx
+  artifactKey: Guid(7e14d8ded08acce4ab705226f9df80e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreeAppleTallG.fbx using Guid(7e14d8ded08acce4ab705226f9df80e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3eef2f2383119da125129afc1729bd') in 0.027571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreeDShortG.fbx
+  artifactKey: Guid(8878ece11c2917b409a8b9ba9a491f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreeDShortG.fbx using Guid(8878ece11c2917b409a8b9ba9a491f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31be01f8b167d81631c07a3cf68ee0c') in 0.084026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/AurynSky/WinterArena/Models/WinterTreePineTall.fbx
+  artifactKey: Guid(de7e5cce8d8676244a218979562fa6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/WinterArena/Models/WinterTreePineTall.fbx using Guid(de7e5cce8d8676244a218979562fa6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9989e59abec973b0dcd6577a5cc885') in 0.077340 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
